@@ -6,4 +6,4 @@ IMPORTANTE: En el ejemplo de codificación, aplique diferentes patrones, como ar
 
 Caso 2: Expiración de la información: para solucionar el problema de querer eliminar información que ya no es requerida en función de una ventana de tiempo, considere crear un job con jenkins que lo que haga sea ejecutar una lógica verificando que registró esta fuera de tiempo (esto gracias a un campo definido previamente en la inserción expireAt), en caso tal, marcaria en el registro de expirado a verdadero.  
 
-Caso 3: Eliminación de la información: para este problema considere crear un segundo job en el su trabajo sea verificar qué registros han expirado y eliminarlos. 
+Caso 3: Eliminación de la información: para este problema considere crear un segundo job en donde su trabajo sea verificar qué registros han expirado y eliminarlos. 
